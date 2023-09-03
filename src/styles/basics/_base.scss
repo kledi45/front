@@ -1,0 +1,24 @@
+.absolute:has(.dropdown-content) {
+	@apply md:-translate-x-1/2;
+}
+
+.default-btn {
+	@apply bg-primary-500;
+	@apply active:bg-pink-600;
+	@apply uppercase;
+	@apply text-white;
+	@apply font-bold;
+	@apply hover:shadow-md;
+	@apply shadow;
+	@apply text-xs;
+	@apply px-4;
+	@apply py-2;
+	@apply rounded;
+	@apply outline-none;
+	@apply focus:outline-none;
+	@apply sm:mr-2;
+	@apply mb-1;
+	@apply ease-linear;
+	@apply transition-all;
+	@apply duration-150;
+}
